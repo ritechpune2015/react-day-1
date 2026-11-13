@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<script type="text/javascript">
+//named function 
+/*
+function square(number) {
+  return number * number;
+}
+console.log(square(10));
+*/
+/*
+//anonymous  function 
+var square=function(number) {
+  return number * number;
+}
+console.log(square(10));
+*/
+
+/*
+
+//arrow  function 
+var square=(number) => number * number;
+console.log(square(10));
+*/
+
+
+var product ={
+  ProductID:1,
+ ProductName:"Mouse",
+ MfgName:"Intex",
+ Price:450,
+ Display:function(){
+ console.log("ProductID:"+ this.ProductID);
+ console.log("Product Name:"+ this.ProductName);
+ console.log("Mfg Name:"+ this.MfgName);
+ console.log("Price:"+ this.Price);
+   }
+}
+
+product.Display();
+
+</script>
+</body>
+</html>
